@@ -8,26 +8,49 @@ pages:
   # - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
-  - { icon: "instagram", type: "brand", link: "#" }
+  - {
+      icon: "instagram",
+      type: "brand",
+      link: "https://www.instagram.com/joshqu1ck/",
+    }
   # - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
   # - {icon: 'facebook', type: "brand", link: '#'}
   # - {icon: 'youtube', type: "brand", link: '#'}
   # - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
-  - { icon: "rss", type: "solid", link: "#" }
+  - {
+      icon: "rss",
+      type: "solid",
+      link: "https://anchor.fm/s/efdca448/podcast/rss",
+    }
 
 websites-podcast:
-  - { name: "Apple Podcast", link: "#" }
-  - { name: "Spotify", link: "#" }
-  - { name: "YouTube", link: "#" }
-  - { name: "Android", link: "#" }
-  - { name: "Spreaker", link: "#" }
-  - { name: "Google Podcast", link: "#" }
-  - { name: "Anchor", link: "#" }
-  - { name: "Castbox", link: "#" }
-  - { name: "Overcast", link: "#" }
-  - { name: "RadioPublic", link: "#" }
-  - { name: "Breaker", link: "#" }
-  - { name: "RSS", link: "#" }
+  - {
+      name: "Apple Podcast",
+      link: "https://podcasts.apple.com/us/podcast/original-montana-field-guide/id1724095733",
+    }
+  - {
+      name: "Spotify",
+      link: "https://open.spotify.com/show/0g4wKzJpLtuQ2VHR0RVLUZ",
+    }
+
+  - {
+      name: "Google Podcast",
+      link: "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lZmRjYTQ0OC9wb2RjYXN0L3Jzcw?sa=X&ved=0CAIQ9sEGahcKEwjQspHGkNGDAxUAAAAAHQAAAAAQAg",
+    }
+
+  - {
+      name: "Amazon Podcasts",
+      link: "https://www.iheart.com/podcast/269-original-montana-field-gui-140213131/",
+    }
+  - {
+      name: "I Heart Radio",
+      link: "https://www.iheart.com/podcast/269-original-montana-field-gui-140213131/",
+    }
+
+  - {
+      name: "RSS",
+      link: "https://open.spotify.com/show/0g4wKzJpLtuQ2VHR0RVLUZ",
+    }
 
 translate-date: true #See _includes/date.html to translate the months' name
 shownotes: true

@@ -41,28 +41,34 @@ $grey: #a2a2a2;
             max-width: 100%;
             height: auto;
             border-radius: 5px;
-            margin-bottom: 5px;
+            margin-bottom: 11px;
         }
-        #social::before{
-            display: block;
-            content: '';
-            width: 5rem;
-            height: 1px;
-            margin: 23px auto;
-            background-color: #d5d5d5;
-        }
-        #social::after{
-            display: block;
-            content: '';
-            width: 5rem;
-            height: 1px;
-            margin: 23px auto;
-            background-color: #d5d5d5;
-        }
-        #social{
+        // #social::before{
+        //     display: block;
+        //     content: '';
+        //     width: 5rem;
+        //     height: 1px;
+        //     margin: 23px auto;
+        //     background-color: #d5d5d5;
+        // }
+        // #social::after{
+        //     display: block;
+        //     content: '';
+        //     width: 5rem;
+        //     height: 1px;
+        //     margin: 23px auto;
+        //     background-color: #d5d5d5;
+        // }
+        #social {
+            display: flex;
+                align-items: center;
+                gap:.5em;
+                padding:.5em;
+                justify-content: center;
             a{
-                color: $grey;
+                color: blue;
                 margin: 2px;
+                
             }
             #twitter:hover{
                 color: $twitter;
