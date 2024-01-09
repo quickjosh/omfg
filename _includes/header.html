@@ -4,14 +4,14 @@
     </div>
 
     <nav role="navigation">
-      <div id = "desktop-nav">
+      <div class = "desktop-nav">
         <ul id = "desktop-menu">
           {% for item in site.data.settings.pages  %}
           <li><a href="{{ item.link | absolute_url}}"> {{ item.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
-      <div id="hammenuToggle">
+      <!-- <div id="hammenuToggle">
           <input type="checkbox" />
     
           <span></span>
@@ -24,6 +24,6 @@
             <li><a href="{{ item.link | absolute_url}}">  {{ item.name }}</a></li>
             {% endfor %}
           </ul>
-        </div>
+        </div> -->
     </nav>
 </div>
