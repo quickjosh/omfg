@@ -18,9 +18,9 @@ title: Episodes
 
 </ul>
 
-<h2> Extra Episodes </h2>
-<ul>
-{% for post in site.posts %}    
+<!-- <h2> Extra Episodes </h2> -->
+<!-- <ul>
+{% for post in site.posts %}
     {% if post.type == "extra" %}
         <li>
             <a href="{{ post.url }}"> {{ post.title }} </a>
@@ -29,5 +29,5 @@ title: Episodes
 
 {% endfor %}
 
-</ul>
+</ul> -->
 </div>
