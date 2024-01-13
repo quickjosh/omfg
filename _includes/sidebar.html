@@ -1,29 +1,14 @@
-<!-- <img src="{{"assets/img/Podcast_Cover_500.jpg" | absolute_url}}" alt="Podcast Cover"> -->
-
-<div id = "info">
-    <!-- <h3>{{site.title}}</h3>
-    <h4><i>{{site.description}}</i></h4> -->
-</div>
-<div id = "social">
-    {% for item in site.data.settings.social %}
-    {% if item.type == "brand"%}
-      <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fab fa-{{item.icon}}" aria-hidden="true"></i></a>
-    {% endif %}
-    {% if item.type == "solid"%}
-      <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fas fa-{{item.icon}}" aria-hidden="true"></i></a>
-    {% endif %} 
-    {% if item.type == ""%}
-        <a href="{{ item.link }}" target="_blank" id="{{item.icon}}"><i class="fa fa-{{item.icon}}" aria-hidden="true"></i></a>
-    {% endif %} 
-  {% endfor %}
-</div>
-<div id = "ascoltare">
-    <h3>Where To Listen</h3>
-    <div id = "lista-siti">
-        <ul id = "siti">
-          {% for item in site.data.settings.websites-podcast  %}
-          <li><a href="{{ item.link }}"> {{ item.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+<div>
+  <span>Where To Listen</span>
+  <span><a href="https://podcasts.apple.com/us/podcast/original-montana-field-guide/id1724095733"> Apple Podcast</a></span>
+        
+        <span><a href="https://open.spotify.com/show/0g4wKzJpLtuQ2VHR0RVLUZ"> Spotify</a></span>
+        
+        <span><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lZmRjYTQ0OC9wb2RjYXN0L3Jzcw?sa=X&ved=0CAIQ9sEGahcKEwjQspHGkNGDAxUAAAAAHQAAAAAQAg"> Google Podcast</a></span>
+        
+        <span><a href="https://www.iheart.com/podcast/269-original-montana-field-gui-140213131/"> Amazon Podcasts</a></span>
+        
+        <span><a href="https://www.iheart.com/podcast/269-original-montana-field-gui-140213131/"> I Heart Radio</a></span>
+        
+        <span><a href="https://open.spotify.com/show/0g4wKzJpLtuQ2VHR0RVLUZ"> RSS</a></span>
 </div>

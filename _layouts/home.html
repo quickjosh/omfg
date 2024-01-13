@@ -44,11 +44,11 @@ layout: default
             {% else %}
                 {{ post.content | strip_html | truncatewords:100 }}
             {% endif %}
-            <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span> 
+            <!-- <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span>  -->
         </p> 
     </div>
 
-    <div class = "short-excerpt">
+    <!-- <div class = "short-excerpt">
         <p>
             {% if post.description %}
                 {{post.description | strip_html | truncatewords:30}}
@@ -57,7 +57,7 @@ layout: default
             {% endif %}
             <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span> 
         </p> 
-    </div>
+    </div> -->
 
 </div>
 {% endfor %}
